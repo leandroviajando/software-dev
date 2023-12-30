@@ -1,0 +1,65 @@
+{
+  "workbench.colorTheme": "βui - Espresso Libre",
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.unusedImports": "explicit"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, ColumnLimit: 0}",
+  "[c]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.tabSize": 2
+  },
+  "[groovy]": {
+    "editor.defaultFormatter": "marlon407.code-groovy",
+    "editor.tabSize": 2
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[makefile]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "isort.args": ["--profile", "black"],
+  "mypy.runUsingActiveInterpreter": true,
+  "python.linting.ignorePatterns": [".venv/**/*.py"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["."],
+  "[shellscript]": {
+    "editor.tabSize": 2
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "be5invis.toml"
+  },
+  "files.associations": {
+    "CODEOWNERS": "plaintext"
+  }
+}
