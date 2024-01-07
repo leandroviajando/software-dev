@@ -42,6 +42,12 @@ git lfs track "*.pickle"
 
 - [Pytest](https://towardsdatascience.com/pytest-for-data-scientists-2990319e55e6)
 - [mock and patch](https://write.agrevolution.in/python-unit-testing-mock-and-patch-8ba9c796c9c2)
+- Test Doubles:
+  - A **dummy** is a placeholder to fill some required parameters.
+  - A **fake** simulates a real dependency with a simplified working implementation.
+  - A **stub** behaves exactly as instructed.
+  - A **spy** records interactions with the production code, allowing tests to extract the interaction history when required.
+  - A **mock** additionally includes assertions (expectations) about the interactions with the production code.
 
 ## Software Design
 
