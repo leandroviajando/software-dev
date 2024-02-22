@@ -9,7 +9,7 @@
     "source.organizeImports": "explicit",
     "source.unusedImports": "explicit"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, ColumnLimit: 0}",
+  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google}",
   "[c]": {
     "editor.tabSize": 2
   },
@@ -61,5 +61,15 @@
   },
   "files.associations": {
     "CODEOWNERS": "plaintext"
+  },
+  "github.copilot.enable": {
+    "dotenv": false,
+    "ini": false,
+    "json": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false,
+    "yaml": false,
+    "xml": false
   }
 }
