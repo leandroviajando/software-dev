@@ -1,3 +1,7 @@
+# Haskell
+
+[ -f "/home/user/.ghcup/env" ] && . "/home/user/.ghcup/env" # ghcup-env
+
 # Pyenv
 
 export PYENV_ROOT="$HOME/.pyenv"
