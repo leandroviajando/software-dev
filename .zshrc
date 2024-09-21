@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # ----------------------------------------------------------------------------
+# Mac: brew install go ghc cabal-install nvm node pyenv
 
 # Go
 
