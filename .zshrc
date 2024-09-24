@@ -108,24 +108,32 @@ source $ZSH/oh-my-zsh.sh
 
 # ----------------------------------------------------------------------------
 # Mac:
-# brew install ghc cabal-install nvm node pyenv go rustup && rustup-init
-
-# Anaconda
-
-export PATH=$PATH:/opt/homebrew/anaconda3/bin
+# brew install ghc cabal-install nvm node openjdk pyenv go rustup && rustup-init
 
 # Go
 
-## Mac:
 export PATH=$PATH:/usr/local/go/bin
 
-# NVM
+# Java
+
+export PATH=/opt/homebrew/opt/openjdk/bin:$PATH
+
+# Node
+
+## NVM:
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This load$
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Pyenv
+# Python
+
+## Anaconda:
+
+export PATH=$PATH:/opt/homebrew/anaconda3/bin
+source /opt/homebrew/anaconda3/etc/profile.d/conda.sh
+
+## Pyenv:
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
