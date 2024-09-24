@@ -110,6 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # Mac:
 # brew install ghc cabal-install nvm node pyenv go rustup && rustup-init
 
+# Anaconda
+
+export PATH=$PATH:/opt/homebrew/anaconda3/bin
+
 # Go
 
 ## Mac:
