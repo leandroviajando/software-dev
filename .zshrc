@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # Anaconda
 
 export PATH=$PATH:/opt/homebrew/anaconda3/bin
+source /opt/homebrew/anaconda3/etc/profile.d/conda.sh
 
 # Go
 
